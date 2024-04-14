@@ -103,3 +103,34 @@ function Add2return(num){
     return sum;
 }
 
+
+// part 1
+const addsum=(num)=>{
+    let sum=0;
+    sum=num+22;
+    return sum;
+}
+
+// console.log(addsum(7));
+
+// const addsum = (num) => {
+//     let sum = 0;
+//     sum = num + 22;
+//     return sum;
+// };
+
+// console.log(addsum(5));
+
+// Part 2
+const addf=num=>{
+    let sum=0;
+    sum = num+7;
+    return sum;
+}
+
+// console.log(addf(8));
+// part 3
+const adreturn =num=>{
+    return num+22;
+}
+console.log(adreturn(6));
