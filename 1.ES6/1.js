@@ -134,3 +134,23 @@ const adreturn =num=>{
     return num+22;
 }
 console.log(adreturn(6));
+
+
+// Objects literals/shorthand property value
+
+// let aaloo=1;
+// let bhallo=2;
+
+// const obj1={ aaloo: aaloo,  bhallo: bhaaloo}
+// console.log(obj1);
+// const obj2 = {aaloo,bhallo}
+// console.log(obj2);
+
+// templet literal
+
+let name ='Adarsh'
+let line = "Hello " + name +" !"
+// console.log(line);
+
+const helloTemp = `Hello ${name} !`
+console.log(helloTemp);
