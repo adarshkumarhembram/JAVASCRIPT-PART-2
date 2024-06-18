@@ -284,3 +284,11 @@ let min = date.getMinutes();
 console.log(`${year}-${mon + 1}-${day} ${hour}:${min}`);
 console.log(`${day}-${mon}-${year} ${hour}:${min}`);
 console.log(`${day}/${mon}/${year} ${hour}:${min}`);
+
+
+console.log(1 +  "2" + "2"); // Outputs "122"
+console.log(1 + +"2" + "2"); // Outputs "32"
+console.log(1 + -"1" + "2"); // Outputs "02"
+console.log(+"1" + "1" + "2"); // Outputs "112"
+console.log("A" - "B" + "2"); // Outputs "NaN2"
+console.log("A" - "B" + 2); // Outputs NaN
